@@ -4,25 +4,40 @@ body {
 }
 
 div {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   margin: 20px 20px;;
   display: inline-block;
   position: relative;
+  filter: brightness(0.8);
+  -webkit-filter: brightness(0.8);
+  -moz-filter: brightness(0.8);
+  -o-filter: brightness(0.8);
+  -ms-filter: brightness(0.8);
 }
 
 img {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
+  border-radius: 4%;
+  /*-webkit-filter: brightness(1) grayscale(0.1) hue-rotate(30deg);
+  -webkit-filter: hue-rotate(180deg) invert(0.1) saturate(1.5) sepia(0.3);*/
 }
 
 span {
   position: absolute;
   bottom: 10px;
   right: 10px;
+  color: white;
+  font-size: 15px;
 
 }
 
 h2 {
   margin-left: 20px;
+}
+
+#hr {
+  display: block;
+  border-radius: 20%;
 }

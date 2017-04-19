@@ -3,9 +3,11 @@ var parrafo = document.createElement("h2");
 parrafo.innerText = "Nuestras Coders";
 document.body.appendChild(parrafo);
 
-var hr = document.createElement("hr");
-hr.style.size = "10px";
-hr.style.width = "5%;"
+var hr = document.createElement("div");
+hr.setAttribute("id", "hr");
+hr.style.height = "4px";
+hr.style.width = "75px";
+hr.style.background = "black";
 document.body.appendChild(hr);
 
 var div = [];
